@@ -1,0 +1,211 @@
+.block0 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #d9d9d9;
+    width: 50%;
+}
+
+.block0 a {
+    display: block;
+    height: 40px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.block0 .registry {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 30px;
+    color: #054F70;
+    font-weight: 600;
+}
+
+.block0 .registry:hover {
+    text-decoration: underline;
+}
+
+.block0 .block {
+    font-size: 15px;
+    padding-top: 5px;
+    color: #000000;
+}
+
+.block0 .block:hover {
+    border-bottom: 3px solid #054F70;
+}
+
+.block1 {
+    padding: 20px;
+}
+
+.block1 .section {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.block1 .section-item {
+    border-radius: 8px;
+    border: 1px solid #acabab;
+    width: 100%;
+    max-width: 350px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.block1 .section-item h2 {
+    padding: 50px 0 0 15px;
+    font-weight: bold;
+}
+
+.block1 .section-item h3 {
+    font-weight: bold;
+    font-size: 17px;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.block1 .section-item h3:hover {
+    color: #973F0E;
+}
+
+.block1 .section-item p {
+    font-size: 15px;
+    color: #555;
+    padding-left: 15px;
+}
+
+.block1 .section-item img {
+    width: 350px;
+    height: 220px;
+    border-radius: 0px;
+    padding: 0;
+}
+
+
+
+.block1 .btn-search,
+.block1 .btn-create {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid;
+    width: 90%;
+
+}
+
+.block1 .btn-search {
+    background-color: #ffffff;
+    color: #111;
+    border: 1px solid #d9d9d9;
+    margin: 20px 4%;
+
+}
+
+.block1 .btn-create {
+    background-color: #ffd814;
+    color: #111;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+
+.block2 img {
+    width: 98%;
+    height: 150px;
+    margin: 50px 1%;
+
+}
+
+.block3 {
+    padding: 20px;
+}
+
+.block3 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.block3 .reasons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block3 .reason-box {
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #2d2c2c;
+    width: 30%;
+    text-align: center;
+}
+
+.block3 .reason-box img {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+}
+
+.block3 .reason-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin: 10px 0;
+}
+
+.block3 .reason-box p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+}
+.block5 {
+    padding: 20px;
+}
+
+.block5 .section {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.block5 .section-item {
+    width: 100%;
+    max-width: 350px;
+    text-align: left;
+}
+
+.block5 .section-item h2 {
+    font-weight: bold;
+    padding: 50px 0 0 15px;
+}
+
+.block5 .section-item h3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.block5 .section-item h3:hover {
+    color: #973F0E;
+}
+
+.block5 .section-item p {
+    font-size: 15px;
+    color: #555;
+}
+
+.block5 .section-item img {
+    width: 355px;
+    height: 300px;
+    border-radius: 0px;
+    padding: 0;
+}

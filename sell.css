@@ -1,0 +1,694 @@
+body {
+    font-family: AEmb, Helvetica, Arial, sans-serif;
+}
+
+.head {
+    display: flex;
+    /* Sử dụng flex để đặt các phần tử trên cùng một hàng */
+    /* align-items: center;  */
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+}
+
+.head .sellWithAmazon {
+    width: 300px;
+    height: auto;
+    margin-left: 10%;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.head .brandedSale {
+    display: flex;
+    border-radius: 4px;
+    padding: 10px;
+    width: 500px;
+    margin-left: 90px;
+
+}
+
+.head .signUp {
+    display: flex;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    width: 110px;
+    height: 40px;
+    margin-left: 90px;
+    background-color: #FF9900;
+    text-align: center;
+    font-weight: 600;
+}
+
+.createAccount {
+    background-color: #151E2D;
+    width: 99%;
+    height: 560px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.createAccount .content {
+    font-size: 65px;
+    font-weight: 900;
+    padding-top: 60px;
+    padding-left: 12%;
+    width: 60%;
+    color: #FFFFFF;
+}
+
+.createAccount .cover {
+    margin-top: 40px;
+    background-color: #488510;
+    border-radius: 40px;
+    margin-left: 12%;
+    width: 400px;
+    display: flex;
+}
+
+.createAccount .cover .content {
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 10px 15px 0 15px;
+    font-weight: 500;
+}
+
+.createAccount .signUp {
+    background-color: #FF9900;
+    border: 5px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 13px 20px 13px 30px;
+    width: 170px;
+    height: 70px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.createAccount img {
+    margin: -210px 60vw;
+    display: flex;
+    width: 550px;
+    height: auto;
+}
+
+.createAccount .under {
+    background-color: #232F3E;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin-top: 105px;
+}
+
+.newSeller {
+    background-color: #FFFFFF;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newSeller .incentives {
+    display: flex;
+    gap: 2rem;
+    /* Khoảng cách giữa ảnh và nội dung */
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.newSeller .left-side {
+    flex: 0 0 40%;
+    /* Chiếm 40% chiều rộng của container */
+    position: relative;
+}
+
+.newSeller .image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newSeller .image-container img {
+    width: 100%;
+    /* Đảm bảo ảnh chiếm toàn bộ vùng của phần .left-side */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.newSeller .card {
+    position: absolute;
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.newSeller .right-side {
+    flex: 0 0 60%;
+    /* Chiếm 60% chiều rộng của container */
+    padding-left: 1rem;
+    /* Thêm khoảng cách bên trái cho phần nội dung nếu cần */
+}
+
+.newSeller .badge {
+    display: inline-block;
+    background-color: #6b8e23;
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.newSeller .right-side span {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.newSeller .incentive-list {
+    background-color: #f0f4e5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    list-style: none;
+}
+
+.newSeller .incentive-list li {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.newSeller .incentive-list li strong {
+    color: #2c3e50;
+}
+
+.newSeller .see-incentives {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.block3 {
+    background-color: #f3f2f0;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    max-width: 1200px;
+    margin: 10px 10%;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.block3 img {
+    width: 50px;
+    height: 50px;
+}
+
+.block3 .left-content {
+    width: 55%;
+    background-color: #f3f2f0;
+    padding: 24px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.block3 .right-content {
+    width: 40%;
+    background-color: #f3f2f0;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.block3 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #232f3e;
+    margin-bottom: 16px;
+}
+
+.block3 p.subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.block3 .incentive-list {
+    list-style: none;
+}
+
+.block3 .incentive-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+
+.block3 .incentive-text {
+    line-height: 24px;
+}
+
+.block3 .incentive-text strong {
+    font-size: 19px;
+    color: #232f3e;
+}
+
+.block3 .incentive-link {
+    display: block;
+    font-weight: bold;
+    color: #070707;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.block3 .quote-section {
+    background-color: #FBF9F7;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+.block3 .quote-title {
+    font-size: 19px;
+    font-weight: bold;
+    color: #232f3e;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.block3 .quote-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.block3 .quote-author {
+    font-weight: bold;
+    color: #0a0a0a;
+    margin-bottom: 16px;
+    padding-top: 10px;
+}
+
+.block3 .quote-link {
+    color: #0f0f0f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.block4 {
+    width: 98%;
+    background-color: #151E2D;
+    margin: 70px 1%;
+}
+
+.block4 .stats-section {
+    background-color: #1a202c;
+    color: #e0f0ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 0;
+    width: 70%;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.block4 .stat-item {
+    text-align: center;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    padding-top: 40px;
+
+}
+
+.block4 .stat-item h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: #B2E5F6;
+}
+
+.block4 .stat-item p {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.block4 .divider {
+    height: 200px;
+    width: 1px;
+    background-color: #38435d;
+    margin: 0 20px;
+}
+
+.block5 {
+    display: flex;
+    gap: 20px;
+    background-color: #e0f0f7;
+    padding: 40px 40px 30px 80px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 10px 10%;
+}
+
+.block5 .text-content {
+    max-width: 600px;
+}
+
+.block5 .text-content h2 {
+    font-size: 18px;
+    color: #555;
+}
+
+.block5 .text-content h1 {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #222;
+}
+
+.block5 .text-content p,
+.text-content ol {
+    color: #555;
+    line-height: 1.6;
+}
+
+.block5 .text-content .compare-link {
+    color: #101010;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.block5 img {
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+
+
+.block6 {
+    width: 80%;
+    margin: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, .1);
+    padding: 50px 20px 30px 20px;
+}
+
+.block6 .step {
+    display: grid;
+    grid-template-columns: 100px 1fr 200px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.block6 h1 {
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.block6 .step-label h2 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.block6 .text-content {
+    width: 600px;
+}
+
+.block6 .text-content h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    font-weight: 600;
+}
+
+.block6 span {
+    text-decoration: underline;
+}
+
+.block6 .text-content p,
+.block6 .text-content ul {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.block6 .text-content ul {
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+.block6 .text-content ul li {
+    margin-bottom: 5px;
+}
+
+.block6 .link {
+    font-size: 16px;
+    color: #151616;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.block6 img {
+    width: 380px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: -200px;
+}
+
+.block7 {
+    width: 70%;
+    margin: 50px 15%;
+}
+
+.block7 h1 {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+
+}
+
+.block7 .faq-item {
+    border-top: 1px solid #ffffff;
+
+}
+
+.block7 .faq-question {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    text-align: left;
+}
+
+.block7 .faq-answer {
+    display: none;
+    font-size: 16px;
+    color: #555;
+    padding-bottom: 10px;
+}
+
+.block7 .faq-answer li {
+    margin-top: 10px;
+}
+
+.block7 .faq-toggle {
+    font-size: 28px;
+    color: #191a1b;
+}
+
+.block7 .faq-answer a {
+    font-size: 16px;
+    color: #151616;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.block7 p span,
+.block7 li span {
+    text-decoration: underline;
+}
+
+
+.block8 {
+    background-color: #20232a;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 70%;
+    height: 400px;
+    margin: 50px 15%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.block8 .text-content {
+    width: 65%;
+    padding: 0 40px;
+}
+
+.block8 .text-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.block8 .text-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.block8 .text-content .button {
+    background-color: #ff9900;
+    color: #20232a;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.block8 .text-content .button:hover {
+    background-color: #e68900;
+}
+
+.block8 .image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block8 .image-container img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+.block9 {
+    width: 80%;
+    margin: 50px 10%;
+}
+.block9 h1 {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+}
+.block9 p {
+    font-size: 20px;
+    /* font-weight: 800; */
+    text-align: center;
+    /* color: #333; */
+    margin-bottom: 50px;
+}
+.block9 .container{
+    display: flex;
+}
+.block9 .container .left{
+    display: flex;
+    margin-right: 60px;
+    /* width: 15%; */
+    /* position: sticky; */
+}
+.block9 .container .right{
+    padding: 20px;
+    background-color: #F5F3EF;
+}
+.block9 .container .right .box{
+    width: 900px;
+    height: 376px;
+    display: flex;
+}
+.block9 .container .right .box .box1 img{
+    width: 55px;
+    height: 55px;
+}
+.block9 .container .right .box .box1{
+    /* background-color: white; */
+    width: 417px;
+    height: 330px;
+    padding: 60px;
+    background-color: #FBF9F7;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-bottom: 24px; */
+    /* margin-top: 24px; */
+    margin-left: 24px;
+}
+.block9 .container .right .box .box2{
+    width: 417px;
+    height: 330px;
+    padding: 60px;
+    padding: 24px;
+    border-radius: 8px;
+    margin-left: 24px;
+}
+.block9 .container .right1{
+    margin-left: 215px;
+    display: flex;
+}
+
+.block9 .container .right1 .item .box1 img{
+    width: 70px;
+    height: 70px;
+}
+.block9 .container .right1 .item .box1{
+    margin-left: 40px;
+    margin-top: 24px;
+    padding: 24px;
+    width: 283px;
+    height: 373px;
+    background-color: #FBF9F7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.note {
+    font-size: 0.8em;
+    color: #666666;
+    text-align: center;
+    width: 70%;
+    margin: 50px 15% 30px 15%;
+}

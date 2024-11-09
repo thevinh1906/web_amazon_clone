@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+}
+
+div.Footer {
+    position: relative;
+    padding: 0px;
+    margin-left: 0px;
+    width: 100vw;
+    height: auto;
+    
+}
+.backToTopBtn {
+    position: absolute;
+    padding: 11px 0px 11px 0px;
+    background-color: #37475A;
+    display: block;
+    width: 100vw;
+    height: 50px;
+    color: white;
+}
+.backToTopBtn:hover{
+    background-color: #495769;
+}
+
+.Footer .textcenter{
+    color: white;
+    text-align: center;
+}
+.Footer .textleft{
+    color: #DDDDDD;
+    text-align: left;
+}
+
+.navFooterInfomation{
+    background-color: #232F3E;
+    /* margin-left: -1%; */
+    /* padding-top: 30px;
+    padding-left: 16%; */
+    padding: 70px 0 10px 0;
+    display: block;
+    width: 100vw;
+}
+
+.navFooterVerticalColumn {
+    display: table;
+    margin: 0 auto;
+}
+
+
+.Footer .navGetToKnowUs{
+    margin-left: 200%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Footer .navMakeMoneyWithUs{
+    margin-left: 130%;
+    width: 80%;
+    height: auto;
+}
+.Footer .navAmazonPaymentProducts{
+    margin-left: 115%;
+    width: 100%;
+    height: auto;
+}
+.Footer .navLetUsHelpYou{
+    margin-left: 105%;
+    width: 62%;
+    height: auto;
+}
+.navFooterLinkCol {
+    color: #333;
+    vertical-align: top;
+    line-height: 120%;
+}
+.navFooterLinkCol {
+    display: table-cell;
+    padding: 0 50px;
+}
+.Footer .h4{
+    font-size: 16px;
+    color: white;
+}
+.Footer ul {
+    list-style-type: none; /* Bỏ dấu đầu dòng */
+    padding: 0; /* Bỏ padding cho ul */
+    color: #DDDDDD;
+}
+.Footer li {
+    margin: 8px 0; /* Thêm khoảng cách giữa các mục */
+    color: #DDDDDD;
+}
+
+.Footer .underline {
+    text-decoration: none; /* Không gạch chân khi không hover */
+    color: white; /* Màu chữ mặc định */
+    transition: text-decoration 0.3s; /* Hiệu ứng chuyển tiếp */
+}
+
+.Footer .underline:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}
+
+.nav-footer-line {
+    border-top: 1px solid #3A4553;
+    margin-top: 40px;
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+}
+ 
+.Footer .LogoAndLanguageFooter {
+    display: flex; /* Sử dụng flex để đặt các phần tử trên cùng một hàng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 100%; 
+    padding: 20px;
+}
+
+.Footer .LogoFooter {
+    width: 76px;
+    height: auto; 
+    margin-top: 20px;
+    margin-left: 28%;
+}
+
+.Footer .Language {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #8D9096;
+    padding: 10px;
+    width: 100px;
+    margin-left: 90px;
+}
+.Footer .Denomenation{
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #8D9096;
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.Footer .UnitedStates{
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #8D9096;
+    padding: 10px;
+    width: 130px;
+    height: 40px;
+    margin-left: 10px;
+}
+  
+  .footer {
+    background-color: #232F3E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.navFooterDescLine {
+    background-color: #131A22;
+    padding: 30px 0;
+}
+
+.navFooterDescLine table{
+    border: "0";
+    margin: 0 5% 0 15%;
+    background-color: #131A22;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+.navFooterDescLine table:hover{
+    text-decoration: underline;
+}
+.navFooterDescItem {
+    font-size: 12px !important;
+    padding: 0 .75em;
+    vertical-align: top;
+    text-align: left;
+    
+    line-height: 115%;
+    color: white;
+}
+.navFooterDesctext{
+    color :#999;
+}
+.navFooterDescLine tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.navFooterDescLine td{
+        font-family: inherit;
+        font-size: 12px;
+        line-height: 120%;
+        padding: 7px 10px;
+        vertical-align: top;
+        
+}
+th:hover{
+    text-decoration: inline;
+}
+.spaceInTableFooter{
+    width: 3%;
+}
+.moreInfo table{
+    margin: 10px 0 0 28%;
+    text-decoration: none;
+}
+.moreInfo tr, th{
+    text-decoration: none;
+    padding: 5px;
+    
+    font-size: 12px;
+}
+.moreInfo p{
+    text-align: center;
+    font-size: 12px;
+    color: #DDDDDD;
+    margin-top: 0px;
+}
